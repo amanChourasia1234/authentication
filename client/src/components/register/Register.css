@@ -1,0 +1,17 @@
+.register-glass {
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px #4747470b;
+  backdrop-filter: blur(7.1px);
+  height: 80%;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  @apply border-4 border-gray-50 shrink-0 w-[30%] rounded-3xl py-5 px-7 min-w-max;
+}
+
+.input-file {
+  display: none;
+}
+.register-profile-img {
+  @apply border-4 border-gray-100 w-[120px] h-[120px] rounded-full shadow-lg cursor-pointer;
+  @apply hover:border-gray-200;
+}
